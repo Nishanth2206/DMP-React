@@ -1,0 +1,182 @@
+
+  .App
+  {
+    background: url('https://th.bing.com/th/id/R.7dd1f437ce9fdab27a966a717d705400?rik=Okw6lchbIUALHg&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f6%2f2%2f0%2f917027-marketing-wallpapers-1920x1080-lockscreen.jpg&ehk=g96F8qGkdcao3TriEnj1cLf8%2fiVuf1s%2bYvSPGSpemDc%3d&risl=&pid=ImgRaw&r=0');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  
+  /* Header styles */
+  .header {
+    background-color: #282c34;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .header .containers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .header .logo {
+    font-size: 24px;
+  }
+  .header .nav{
+    margin-left: 900px;
+  }
+  .header .nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .header .nav a:hover {
+    border-bottom: 2px solid cadetblue;
+    text-shadow: 0px 0px 10px cadetblue,0 0 30px cadetblue,0 0 50px cadetblue;
+   
+  }
+  
+  /* Hero section styles */
+  .hero {
+    background: transparent;
+    background-size: cover;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .hero .containers {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  .cta-button:hover {
+    background-color: #ff4c4c;
+  }
+  
+  /* Services section styles */
+  .services {
+    background-color: transparent;
+    padding: 60px 20px;
+  }
+  
+  .services .containers {
+    margin: 0 auto;
+  }
+  
+  .services h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .service-list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .service-item {
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+  }
+  
+  .service-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .service-item p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Testimonials section styles */
+  .testimonials {
+    padding: 60px 20px;
+    background-color: transparent;
+  }
+  
+  .testimonials .containers {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .testimonials h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .testimonial-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .testimonial-item {
+    background: #f9f9f9;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .testimonial-item p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-item cite {
+    display: block;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  /* Footer styles */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer .containers {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }

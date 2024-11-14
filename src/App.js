@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'; // Optional: if you have global styles for your app
+import Login from './login.js';  // Adjust the path if Login.js is in a different folder
+import {createBrowserRouter, RouterProvider} from 'react-router-dom'
+import Home from './home.js';
+import SignUp from './SignUp.js';
+import MarketingGraph from './MarketingGraph.js';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const route=createBrowserRouter([
+    {
+      path:'/home',
+      element:<Home/>
+    },
+    {
+      path:'/',
+      element:<Login/>
+    },
+    {
+      path:"/signup",
+      element:<SignUp/>
+    },
+    {
+      path:"/GetStarted",
+      element:<MarketingGraph/>
+
+    }
+  ])
+    return (
+        <div><RouterProvider router={route}></RouterProvider></div>
+    );
 }
 
 export default App;
